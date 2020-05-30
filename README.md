@@ -4,7 +4,7 @@
 ##Before going to problem statement i need Docker image for trainig my model . this image depend on our model. In the my case i train a deep learning model so i need my image contain some deep learing modules. so i create Dockerfile for creating my custom image.Here i am creating 6 jobs for automation and for visual i use  build pipeline plugin
 
 ##
-[DOCKERFILE](img/Dockerfile.jpg)
+![DOCKERFILE](img/Dockerfile.jpg)
 ##PROBLEM STATEMENT :
 ###JOB 1 :
 
