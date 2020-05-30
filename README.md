@@ -13,7 +13,41 @@
 ### Job3 : Train your model and predict accuracy or metrics.
 
 ### Job4 : if metrics accuracy is less than 80%  , then tweak the machine learning model architecture.
-### Job5: Retrain the model or notify that the best model is being created
+### Job5 : Retrain the model or notify that the best model is being created
 
-### Create One extra job job6 for monitor : If container where app is running. fails due to any reason then this job should automatically start the container again from where the last trained model left
+### Job6 : Create One extra job job6 for monitor : If container where app is running. fails due to any reason then this job should automatically start the container again from where the last trained model left
 
+# EXPLANATION
+## JOB 1:-
+#### Created a job named job1 for retrive the data from github ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job job1 is pull the data from the github and store in the task3 directory. in case directory alredy created then rm the directory and make new directory and store the github data.
+
+### Pull the data from github repo.
+![job](img/job1.jpg)
+
+### Copy github pull data in local task3 directory
+![job](img/job1_1.jpg)
+
+### After running job1
+![job](img/job1_3.jpg)
+
+
+
+
+## JOB 2:-
+#### I creat a job2. this job2 trigger when job1 succesfully run. in this job check the python code according to our code create a container let suppose in the my code i use  keras module so keras use for deep learning model training . so  i use grep command for grep keras if keras is grep then it give the exit code 0 so it mean in the our code we use keras .  it run the deep learning container . here we use two condition when if the  keras is grep then run the deep learning container else run the machine learing container but here i use same image for machine learning and deep learning model  both. 
+
+### Trigger when job1 succesfully run
+![job2](img/job2.jpg)
+
+### For creating a container i use below script
+![job2](img/job2_1.jpg)
+
+### After succesfully run the job2
+![job2](img/job2_2.jpg)
+
+## JOB 3:-
+####
+
+
+
+##
