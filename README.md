@@ -8,7 +8,7 @@
 
 ## :snail: Docker file
 ![DOCKERFILE](img/Dockerfile.jpg)
-## snowflake :snowflake: PROBLEM STATEMENT :
+## :snowflake: PROBLEM STATEMENT :
 ### :panda_face: JOB 1 : Pull  the Github repo automatically when some developers push repo to Github
 
 ### :floppy_disk: Job2 : By looking at the code or program file, Jenkins should automatically start the respective machine learning software installed interpreter install image container to deploy code  and start training( eg. If code uses CNN, then Jenkins should start the container that has already installed all the softwares required for the cnn processing).
