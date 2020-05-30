@@ -1,3 +1,6 @@
+![ml+dev](https://www.cubix.co/storage/app/uploads/public/5e0/1fc/ba9/5e01fcba91894694172250.jpg)
+# :smile: :smile: :smile: :smile: :smile: :smile:
+
 ## In Machine Learning need to change the model several times to find the best accuracy model manually. So this required lots of efforts and time for making a machine learning model precisely. so there's is obvious need to automate all this process of tweaking the code and retesting until the model gives a good level of accuracy .So here comes the role of Devops , Using Devops we can automate all these so it will save a lot of time and the developer can work on other project with a free mind.
 
 ## I am using jenkins for automation,github for deployment our code,and docker image for trainig our model.
