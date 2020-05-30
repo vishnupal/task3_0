@@ -71,3 +71,5 @@
 ## Running the below script
 ![job6](img/job6_1.jpg)
 
+## Visual of our automation using build pipeline plugin
+![build pipeline](img/build_pipeline.jpg)
