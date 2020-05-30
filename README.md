@@ -64,6 +64,9 @@
 ####  I create job5 when we got the 80% accurcy then job5 run the mail.py and send  the email to the developer that you got best accucry and % of accurcy. and job5 trigger when my JOB3(model.py) or  JOB4(vpp.py) get 80% accurcy.
 ### Trigger when the job3 or job4 get 80% acc.
 ![job5](img/job5.jpg)
+ ## Email 
+ ![job5](img/job5_2.jpg)
+
 
 
 ## :octocat: JOB :-
