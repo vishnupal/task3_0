@@ -1,12 +1,12 @@
 ![ml+dev](https://www.cubix.co/storage/app/uploads/public/5e0/1fc/ba9/5e01fcba91894694172250.jpg)
-# :bowtie: :bowtie: :bowtie: :bowtie: :bowtie: :bowtie: :bowtie:
-# :whale:
-## In Machine Learning need to change the model several times to find the best accuracy model manually. So this required lots of efforts and time for making a machine learning model precisely. so there's is obvious need to automate all this process of tweaking the code and retesting until the model gives a good level of accuracy .So here comes the role of Devops , Using Devops we can automate all these so it will save a lot of time and the developer can work on other project with a free mind.
+# :whale: :whale: :whale: :whale: :whale: :whale: 
 
-## I am using jenkins for automation,github for deployment our code,and docker image for trainig our model.
+## :bowtie: In Machine Learning need to change the model several times to find the best accuracy model manually. So this required lots of efforts and time for making a machine learning model precisely. so there's is obvious need to automate all this process of tweaking the code and retesting until the model gives a good level of accuracy .So here comes the role of Devops , Using Devops we can automate all these so it will save a lot of time and the developer can work on other project with a free mind.
+
+## :octopus: I am using jenkins for automation,github for deployment our code,and docker image for trainig our model.
 ## Before going to problem statement i need Docker image for trainig my model . this image depend on our model. In the my case i train a deep learning model so i need my image contain some deep learing modules. so i create Dockerfile for creating my custom image.Here i am creating 6 jobs for automation and for visual i use  build pipeline plugin
 
-##
+## :snail: Docker file
 ![DOCKERFILE](img/Dockerfile.jpg)
 ## snowflake :snowflake: PROBLEM STATEMENT :
 ### :panda_face: JOB 1 : Pull  the Github repo automatically when some developers push repo to Github
